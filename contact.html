@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+            <html lang="en">
+            <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>gym the great | Contact Us</title>
+            <link rel="stylesheet" href="css/base.css" />
+            <link rel="stylesheet" href="css/contact.css" />
+            </head>
+            <body>
+            <header class="site-header">
+  <div class="header-container">
+    <a href="index.html" class="logo">gym the great</a>
+    
+    <button class="menu-toggle" aria-label="Toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+            <!-- header include -->
+<main class="contact-page">
+  <section class="contact-hero">
+    <div class="container">
+      <h1>Get in Touch</h1>
+      <p class="subheading">Our team is ready to help you with any questions about memberships, classes, or facilities.</p>
+    </div>
+  </section>
+
+  <section class="contact-content">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-form">
+          <h2>Contact Us</h2>
+          <form id="customForm" data-form-handler="">
+            <div class="form-group">
+              <label for="name">Name <span class="required">*</span></label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email <span class="required">*</span></label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+              <label for="service">Service Interest</label>
+              <select id="service" name="service">
+                <option value="">Select a service</option>
+                <option value="membership">Membership</option>
+                <option value="personal-training">Personal Training</option>
+                <option value="group-classes">Group Classes</option>
+                <option value="facility-tour">Facility Tour</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Submit</button>
+          </form>
+        </div>
+
+        <div class="contact-info">
+          <h2>Our Information</h2>
+          <div class="info-card">
+            <div class="info-icon">
+              <img src="images/contact1.jpg" alt="Location icon" width="40" height="40">
+            </div>
+            <div class="info-content">
+              <h3>Address</h3>
+              <p>123 Fitness Avenue<br>Health District<br>New York, NY 10001</p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">
+              <img src="images/contact2.jpg" alt="Phone icon" width="40" height="40">
+            </div>
+            <div class="info-content">
+              <h3>Phone</h3>
+              <p><a href="tel:+18005551234">(800) 555-1234</a></p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">
+              <img src="images/contact3.jpg" alt="Email icon" width="40" height="40">
+            </div>
+            <div class="info-content">
+              <h3>Email</h3>
+              <p><a href="mailto:info@gymthegreat.com">info@gymthegreat.com</a></p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">
+              <img src="images/contact4.jpg" alt="Hours icon" width="40" height="40">
+            </div>
+            <div class="info-content">
+              <h3>Operating Hours</h3>
+              <p>Monday - Friday: 5:00 AM - 11:00 PM<br>
+              Saturday - Sunday: 7:00 AM - 9:00 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<!-- footer include -->
+
+            <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-content">
+      <div class="footer-logo">gym the great</div>
+      
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      
+      <div class="social-links">
+        <a href="#" aria-label="Facebook">Facebook</a>
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        <a href="#" aria-label="Twitter">Twitter</a>
+      </div>
+      
+      <div class="copyright">
+        &copy; <span id="year"></span> gym the great. All rights reserved.
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+            <script src="js/base.js"></script>
+            <script src="js/contact.js"></script>
+            </body>
+            </html>
+            
